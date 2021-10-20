@@ -2,21 +2,105 @@
  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
 
 
+ *{
+     padding: 0;
+     margin: 0;
+     text-decoration: none;
+ }
+ header{
+    
+    background-color: #3a3a3a;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-right: 5%;
+    font-size: 15px;
+    font-family: 'Noto Sans Mono', monospace;
+   }
+   
+
+   header a, header button {
+    color: white;
+    margin: 0 20px;
+    font-size: 1.0rem;
+    
+}
+
+header  button:hover{
+    color: #CE6A6B;
+}
+
+header a:hover{
+    color: #CE6A6B;
+}
+
+header button{
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Noto Sans Mono', monospace;
+    box-sizing: border-box;
+    
+}
+
+header .dropdown-1{
+    position: relative;
+    height: 100%;
+    display: flex;
+    
+    
+}
+
+
+header .dropdown-1 .content {
+
+display: none;
+}
+
+header .dropdown-1:hover .content {
+
+    display: block;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color:   gray;
+    top:70px;
+    width: 120%;
+    box-sizing: border-box;
+}
+
+header .dropdown-1 .content a {
+    color: black;
+    
+
+}
+
+header .content a:hover{
+    color: #CE6A6B;
+}
+
+/* formulaire */
+
+
 .form{
     font-family: 'Noto Sans Mono', monospace;
     background-color: #3a3a3a;
     width :20%;
-    height: 315PX;
-    margin-left: 30%;
+    height: 200PX;
+    margin-top: 1%;
+    
+    margin-left: 23%;
     text-align: center;
     border-radius: 2%;
-
     background-color: #000000;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/formulaire.jpg);
     background-position: center;
     background-size: cover;
     color: #ffffff;
-    padding: 10em;
+    padding: 15em;
 
 }
 
@@ -24,6 +108,7 @@
     
     color: white;
     text-align: center;
+    
 }
 
 .input {
@@ -31,7 +116,7 @@
     padding-bottom: 2%;
     display: flex;
     flex-direction: column;
-    width: 95%;
+    width: 110%;
     margin-left: 5%;
 }
 
