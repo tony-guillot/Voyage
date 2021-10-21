@@ -172,6 +172,7 @@ font-family: 'Noto Sans Mono', monospace;;
 .footer ul li a:hover{
     padding-left: 8px;
 }
+
 .footer ul li:hover{
     padding-left: 8px;
 }
