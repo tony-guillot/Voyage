@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/*Nav*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: white ;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    
+    background-color:skyblue;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-right: 5%;
+    font-size: 15px;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+
+header a, header button {
+    color: white;
+    margin: 0 20px;
+    font-size: 1.0rem;
+    
+}
+
+header  button:hover{
+    color: #CE6A6B;
+}
+
+header a:hover{
+    color: #CE6A6B;
+}
+
+header button{
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Noto Sans Mono', monospace;
+    box-sizing: border-box;
+    
+}
+
+header .dropdown-1{
+    position: relative;
+    height: 100%;
+    display: flex;
+    
+    
+}
+
+
+header .dropdown-1 .content {
+
+display: none;
+}
+
+header .dropdown-1:hover .content {
+
+    display: block;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color:   skyblue;
+    top:70px;
+    width: 120%;
+    box-sizing: border-box;
+}
+
+header .dropdown-1 .content a {
+    color: black;
+    
+
+}
+
+header .content a:hover{
+    color: #CE6A6B;
+}
+
+/*fin nav*/
+
+/*footer*/
+
+.footer{
+    /*padding-top:;*/
+    width: 100%;
+    height: 100%;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Noto Sans Mono', monospace;
+    
+    
+}
+
+.footer ul li a{
+    transition: all 0.3s ease;
+
+}
+
+.footer ul li {
+    transition: all 0.3s ease;
+
+}
+
+.footer ul li a:hover{
+    padding-left: 8px;
+}
+.footer ul li:hover{
+    padding-left: 8px;
+}
+
+
+.navigation {
+    margin-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    line-height: 2rem;
+}
+.navi{
+    font-size: 20px;
+    color: black;
+}
+.navigation a {
+    color: white;
+    font-size: 14px;
+}
+
+.footer a:hover{
+    color:#CE6A6B;
+}
+
+.footer li:hover{
+    color:#CE6A6B;
+}
+
+.contact  {
+    color: white;
+    line-height: 2rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-right: 20%;
+    font-size: 14px;
+}
+
+.info{
+    color: black;
+    font-size: 20px;
+}
+/*FIN FOOTER*/
+
+/*bg-croatie*/
+.drapeau{
+    background-color: #000000;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(/croatie-image/croatie-plage-sable.jpg);
+    background-position: top;
+    background-size: cover;
+    color: #ffffff;
+    padding: 8em;
+    text-align: center;
+}
+
+.ville-croatie{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+h3{
+    text-align: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/*tableau*/
+table,
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+th {
+    background-color: cyan;
+    color: black;
+}
+
+tr:hover {
+    background-color: skyblue;}
+
+.section-arbustes{
+    display: flex;
+    justify-content: center;
+}
+
+.h1-arbustes{
+    text-align: center;
+    color: skyblue;
+}
+
+.section-croatie{
+    display: flex;
+    justify-content: center;
+}
+
+/*Fin tableau*/
