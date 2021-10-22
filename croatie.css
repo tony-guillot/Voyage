@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
 /*Nav*/
 *{
     margin: 0;
@@ -10,7 +10,7 @@
 body{
     overflow-x: hidden;
     background-color: white ;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
 }
 
 header{
@@ -192,6 +192,14 @@ a{
 table,
 td {
     border: 1px solid #333;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(croatie-image/HR.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font-weight: bolder;
+    background-color: #000000;
+    padding: 2em;
+    text-align: center;
+    color: white;
 }
 
 thead,
@@ -206,11 +214,7 @@ th {
 }
 
 tr:hover {
-    background-color: skyblue;}
-
-.section-arbustes{
-    display: flex;
-    justify-content: center;
+    background-color: skyblue;
 }
 
 .h1-arbustes{
@@ -224,3 +228,54 @@ tr:hover {
 }
 
 /*Fin tableau*/
+.h1date1{
+    color: blue;
+}
+
+.td-date1{
+
+    font-weight: 2000;
+}
+.td2{
+
+    font-weight: 2000;
+}
+
+h1, h2, article{
+    text-align: center;
+}
+
+article, p{
+    line-height: 1.6;
+    font-size: 20px;
+    padding: 1%;
+}
+
+.article1{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(croatie-image/visiter-croatie.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    font-weight: bolder;
+    background-color: #000000;
+    padding: 2em;
+    text-align: center;
+    color: white;
+}
+
+.ville-croatie{
+    background-color: gray;
+}
+
+.image-croatie1, .image-croatie2, .image-croatie3{ 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+p, ul, li{
+    text-align: center;
+    line-height: 1.6;
+    font-size: 20px;
+    font-family: 'Noto Sans Mono', monospace;
+}
